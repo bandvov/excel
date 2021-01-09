@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest/globals": true
+  },
+  "plugins": ["jest"],
+  "extends": ["eslint:recommended", "google"],
+  "rules": {
+    "semi": 0,
+    "arrow-parens": 0,
+    "comma-dangle": 0,
+    "require-jsdoc": 0,
+    "linebreak-style": 0,
+    "indent": 0,
+    "operator-linebreak": 0,
+    "no-case-declarations": 0,
+    "no-duplicate-imports": 1
+  }
+}
